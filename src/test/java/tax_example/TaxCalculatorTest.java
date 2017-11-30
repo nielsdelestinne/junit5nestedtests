@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @DisplayName("A Taxcalculator")
 class TaxCalculatorTest {
 
-    TaxCalculator taxCalculator;
+    private TaxCalculator taxCalculator;
 
     @Nested
     @DisplayName("provided with a Belgian tax calculation")
